@@ -1,16 +1,17 @@
 .container-artist {
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  align-content: space-around;
+  overflow-x: hidden;
 } 
 
 .cover {
   position: relative;
   width: 200px;
   height: 200px;
-  margin:10px 30px;  
+  padding: 10px 30px;  
 }
 
 .cover img {

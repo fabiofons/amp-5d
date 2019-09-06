@@ -10,7 +10,6 @@ class Albums extends React.Component {
           const id = album.id
           return (
             <div className='cover-albums' id={album.id} key={album.id}>              
-              <img src={album.image} alt={album.name}/>
               <div className='title'>
                 <Link className='bottom'
                   to={{
@@ -19,7 +18,8 @@ class Albums extends React.Component {
                       id:`${id}`
                     }
                   }}>
-                  {album.name}
+                  <img src={album.image} alt={album.name}/>
+                  <div>{album.name}</div>
                 </Link>
               </div>
             </div>

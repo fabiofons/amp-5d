@@ -1,0 +1,35 @@
+.container-artist {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.cover {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin:10px 30px;  
+}
+
+.cover img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.cover a {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: none;  
+}
+
+.cover a.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

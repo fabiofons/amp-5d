@@ -1,0 +1,24 @@
+.container-songs {
+  width: 100%;
+  padding: 20px;
+}
+
+.track {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.track a {
+  display: block;
+  padding: 40px 0px 7px; 
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #565;
+}
+
+.track p {
+  color: white;
+  font-size: 0.8rem;
+  padding: 40px 0px 7px;
+}

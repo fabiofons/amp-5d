@@ -12,16 +12,16 @@ class Artists extends React.Component {
           return (
             <div className='cover' id={artist.id} key={artist.id}>              
               <img src={artist.image} alt={artist.name}/>
-              <NavLink className='centered'
-                to={{
-                  pathname: '/albums',
-                  state: {
-                    id:`${id}`
-                  }
-                }}
-              >
-                {artist.name}
-              </NavLink>
+                <NavLink className='centered'
+                  to={{
+                    pathname: '/albums',
+                    state: {
+                      id:`${id}`
+                    }
+                  }}
+                >
+                  {artist.name}
+                </NavLink>
             </div>
           );
         })}
